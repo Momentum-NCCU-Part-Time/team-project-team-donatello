@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import TaskBoard from './components/TaskBoard.vue'
 </script>
 
 <template>
@@ -42,6 +43,7 @@ import { ref } from 'vue'
         <button class="btn btn-outline-success" type="submit">Enter</button>
       </form>
     </div>
+    <TaskBoard />
   </div>
 </nav>
   </body>
