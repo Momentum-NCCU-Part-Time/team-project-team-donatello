@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 25px;
+}
+.newList {
+  padding: 100px
+
+}
+body {
+  background-color: #DAE0E6;
+  margin: 0;
+}
+#app {
+  text-align: center;
+  color: #2c3e50;
+}
