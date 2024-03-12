@@ -4,7 +4,7 @@ import TaskBoard from './components/TaskBoard.vue'
 </script>
 
 <template>
-  <body>
+  <header>
     <nav class="navbar navbar-expand-lg bg-primary p-4">
       <div>
         <h1>Team Donatello Task Management App</h1>
@@ -46,7 +46,7 @@ import TaskBoard from './components/TaskBoard.vue'
     <TaskBoard />
   </div>
 </nav>
-  </body>
+</header>
 </template>
 
 <style scoped></style>
