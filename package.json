@@ -14,11 +14,8 @@
   "dependencies": {
     "@rushstack/eslint-patch": "^1.7.2",
     "@vitejs/plugin-vue": "^5.0.4",
-<<<<<<< HEAD
     "bootstrap": "^5.3.3",
-=======
     "@vue/eslint-config-prettier": "^9.0.0",
->>>>>>> 5b4fec2ba46a56b59601b7b5f682a3c889cf2063
     "dayjs": "^1.11.10",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.22.0",
