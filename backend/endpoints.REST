@@ -1,0 +1,18 @@
+//get all
+###
+GET http://localhost:3000/taskboards/
+// create board
+
+### 
+POST http://localhost:3000/shoppinglists/ Content-Type: application/json
+
+{
+"title": "Test list 1", 
+"createdAt": "2024-02-10", 
+"updatedAt": "2024-02-10",
+"dueAt:" : "2024-03-22",
+
+"tasks": []
+
+
+}
