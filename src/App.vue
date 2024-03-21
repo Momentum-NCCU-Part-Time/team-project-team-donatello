@@ -20,24 +20,18 @@ import TaskBoard from './components/TaskBoard.vue'
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">About</a>
-        </li>
+      
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Recent Tasks
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Task List 1</a></li>
-            <li><a class="dropdown-item" href="#">Task List 2</a></li>
+            
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">More List</a></li>
           </ul>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li> -->
-      </ul>
+             </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Enter</button>
